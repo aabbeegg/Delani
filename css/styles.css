@@ -1,29 +1,52 @@
 
-.logo
-{
+.header{
   position: top ;
   top: 60px;
   left: 80px;
 }
 
-form-textbox {
+.W1 {
+  overlay
+  background: grey;
+}
 
-  height: 25px !important;
-  
-  width: 220px !important;
-  
-  
-  }
+.W2 {
+  background: grey;
+}
 
-  .column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-  }
+.W3 {
+  background: grey
+}
+
+.W4 {
+  background: grey
+}
+
+
+.W5 {
+  background: grey;
+}
+
+.W6 {
+  background: grey;
+}
   
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+.W7 {
+  background: grey;
+}
+ .W8 {
+   background: grey;
+ }
+
+ #overlay {
+  position: overlay; /* Sit on top of the page content */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: grey; /* Grey background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
