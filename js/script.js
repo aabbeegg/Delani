@@ -6,13 +6,15 @@ $(desp).hide()
     
     
         $("button").on('click',function() {
-          $("design").toggle("");
+          $("design").toggle("Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing
+          Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.');');");
       });
       $(document).ready(function(){
         $("#development-image").click(function(){
           $("#development-image").slideDown('').hide('Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing
           Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.');
-          $("#development").show('');
+          $("#development").show('Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing
+          Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.');');
         });
         $("#development").click(function(){
           $("#development").slideUp('1500');
@@ -22,7 +24,7 @@ $(desp).hide()
       
       $(document).ready(function(){
         $("#design-image").click(function(design-image){
-          $("#design-image").slideDown('design-image').hide('design');
+          $("#design-image").slideDown('').hide('design');
           $("#design").show('design');
         });
         $("#design").click(function(){
@@ -45,55 +47,56 @@ $(desp).hide()
         });
       });
       
+
       $(document).ready(function(){
-        $("#work1").mouseover(function(){
-          $("#overlay").show();
-        }).mouseout(function(){
+        $("#work1").mouseover(function(work1){
+          $("#overlay").show(work1);
+        }).mouseout(function(work1){
           $("#overlay").hide();
         });
       });
       $(document).ready(function(){
-        $("#work2").mouseover(function(){
-          $("#overlay2").show();
-        }).mouseout(function(){
+        $("#work2").mouseover(function(work2){
+          $("#overlay2").show(work2);
+        }).mouseout(function(work2){
           $("#overlay2").hide();
         });
       });
       $(document).ready(function(){
-        $("#work3").mouseover(function(){
-          $("#overlay3").show();
-        }).mouseout(function(){
+        $("#work3").mouseover(function(work3){
+          $("#overlay3").show(work3);
+        }).mouseout(function(work3){
           $("#overlay3").hide();
         });
       });
-      $(document).ready(function(){
-        $("#work4").mouseover(function(){
-          $("#overlay4").show();
-        }).mouseout(function(){
+      $(document).ready(function(work4){
+        $("#work4").mouseover(function(work4){
+          $("#overlay4").show(work4);
+        }).mouseout(function(work4){
           $("#overlay4").hide();
         });
       });
 
       
-      $(document).ready(function(){
-        $("#work5").mouseover(function(){
-          $("#overlay5").show();
-        }).mouseout(function(){
+      $(document).ready(function(work5){
+        $("#work5").mouseover(function(work5){
+          $("#overlay5").show(work5);
+        }).mouseout(function(work5){
           $("#overlay5").hide();
         });
-        $("#work6").mouseover(function(){
-          $("#overlay6").show();
-        }).mouseout(function(){
+        $("#work6").mouseover(function(work6){
+          $("#overlay6").show(work6);
+        }).mouseout(function(work6){
           $("#overlay6").hide();
         });
-        $("#work7").mouseover(function(){
-          $("#overlay7").show();
-        }).mouseout(function(){
+        $("#work7").mouseover(function(work7){
+          $("#overlay7").show(work7);
+        }).mouseout(function(work7){
           $("#overlay7").hide();
         });
-        $("#work8").mouseover(function(){
-          $("#overlay8").show();
-        }).mouseout(function(){
+        $("#work8").mouseover(function(work8){
+          $("#overlay8").show(work8);
+        }).mouseout(function(work8){
           $("#overlay8").hide();
         });
       });
@@ -114,4 +117,18 @@ $(desp).hide()
         });
       
       });
+      function on() {
+        document.getElementById("overlay").style.display = "workflow";
+      }
+      
+      function off() {
+        document.getElementById("overlay").style.display = "hide";
+      }
+
+      
+
+
+
+      
+
       
