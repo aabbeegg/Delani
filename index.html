@@ -1,9 +1,4 @@
 
-  <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"e71bed4d6ae5a7c984dfe28b0","lid":"dbf7e27685","uniqueMethods":true}) })</script>
-  <script src="js/jquery-3.4.1.js"></script>
-  <script src="js/script.js"></script>
-</body>
-</html>
 <!DOCTYPE html>
 <html>
   <head>
@@ -21,19 +16,21 @@
 <body>
 
   <div class="container">
-    <img src="images/assets/backgrounds/h_img.jpg" alt="delanistudio" class="delani">
+    <img src="images/assets/backgrounds/h_img.jpg" alt="delanistudio" class="delani" width="100%">
+    <div class="centered">
     <header>
       <img src="images/assets/logo/logo.png" alt="delani-logo" class="logo">
     </header>
-    
-    <div class="centered">
       <h1><strong>WELCOME<br>TO DELANI STUDIO</strong></h1>
     <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
     </div>
+  </div>
+  <div class="centered">
     <footer>
      <img src="images/assets/mouse_click.png" alt="mouse-click" class=mouse-click> 
     </footer> 
     </div>
+  </div>
 
 
     <h2><strong>ABOUT US</strong></h2>
@@ -45,7 +42,7 @@
     </p>
     </div>
     <div class="container">
-    <img src="images/assets/backgrounds/s_image.jpg" alt="keyboard" class="keyboard">
+    <img src="images/assets/backgrounds/s_image.jpg" alt="keyboard" class="keyboard" width=100%>
     <div class="centered">
     <h3><strong>SERVICES</strong></h3>
     <P>
@@ -104,67 +101,84 @@
 <section id="portfolio" class="workflow">
 <div class="container-fluid portfolio">
 <h6><strong>PORTFOLIO</strong></h6> 
-<div class="row" id="list-1">
-<div class="col col-lg-3 col-md-6 col-12">
-<div class="card text-center" id="work1">
-<img src="images/assets/portfolio/work4.jpg" class="image-fluid" alt="work-4"> <br> 
-
-            </div>
-        </div>
-
-       
-
-
-        <div class="column">
-          <div class="card text-center" id="work2">
-            <img src="images/assets/portfolio/work3.jpg" class="image-fluid" alt="work-3"> 
-          </div>  
-        </div>
-
-        <div class="column">
-          <div class="card text-center" id="work3">
-            <img src="images/assets/portfolio/work2.jpg" class="image-fluid" alt="work-2">
-          </div>
-        </div>
+<div class="row" id="portfolio">
+  <div id="overlay" onclick="work1">
+  <div class="col-md-3" id="work1"></div>
+  <button class="btn success"><img src="images/assets/portfolio/work4.jpg" class="W1"> </button>
+    <p id="overlay"class="text">work1</p>
+  </div>
 </div>
 
-        <div class="row" id="list-2">
-        <div class="column">
-          <div class="card text-center" id="work4">
-            <img src="images/assets/portfolio/work1.jpg" class="image-fluid" alt="work-1">
-          </div>
-        </div>
+<div id="overlay" onclick="work2">
+  <div class="col-md-3" id="work2">
+    <button class="btn success"><img src="images/assets/portfolio/work3.jpg" class="W2"></button>
+    <p id="overlay2" class="text">work2</p>
+  </div>
+  </div>
 
-        <div class="column">
-          <div class="card text-center" id="work6">
-            <img src="images/assets/portfolio/work7.jpg" class="image-fluid" alt="work-7">
-          </div>
-        </div>
+  <div id="overlay" onclick="work3">
+  <div class="col-md-3" id="work3">
+    <button class="btn success"><img src="images/assets/portfolio/work2.jpg" class="W3"></button>
+    <p id="overlay3"class="text">work3</p>
+  </div>
+  </div>
 
-        <div class="column">
-          <div class="card text center" id="work7">
-            <img src="IMAGES/portfolio/work7.jpg" class="image-fluid" alt="work-8">
-          </div>
-        </div>
+  <div id="overlay" onclick="work4">
+  <div class="col-md-3" id="work4">
+    <button class="btn success"><img src="images/assets/portfolio/work1.jpg" class="W4"></button>
+    <p id="overlay4" class="text">work4</p>
+  </div>
+</div>
 
-        <div class="column">
-          <div class="card text center" id="work8">
-            <img src="IMAGES/portfolio/work8.jpg" class="image-fluid" alt="work-9">
-          </div>
-        </div>
+<div class="row" id="portfolio">
+  <div id="overlay" onclick="work5"></div>
+    <div class="col-md-3" id="work5">
+      <button class="btn success"><img src="images/assets/portfolio/work5.jpg" class="W5"></button>
+      <p id="overlay5" class="text">work5</p>
+    </div>
+</div>
 
-        <div class="container">
-        <img src="images/assets/backgrounds/c_image.jpg" alt="c-img">
-        <div class="centered"><form>
-          <label for="Name" width="100%">Name:</label><br>
-          <input type="text" id="name" name="fname" value=""><br>
-          <label for="E-mail" width="100%">E-mail>:</label><br>
-          <input type="text" id="E-mail" name="E-mail" width="50%" value=""><br>
-          <label for="your message here" width="100%">Your message here</label><br>
-          <input type="text" id="your" name="Your message here" value=""><br><br>
-          <input type="submit" value="SUBMIT">
-        </form>
-        </div>
+<div id="overlay" onclick="work6">
+    <div class="col-md-3" id="work6">
+      <button class="btn success"><img src="images/assets/portfolio/work6.jpg" class="W6"></button>
+      <p id="overlay6"class="text">work6</p>
+    </div>
+</div>
+
+<div id="overlay" onclick="work7">
+    <div class="col-md-3" id="work7">
+      <button class="btn success"><img src="images/assets/portfolio/work7.jpg" class="W7"></button>
+      <p id="overlay7" class="text">work7</p>
+    </div>
+</div>
+
+<div id="overlay" onclick="work8">
+    <div class="col-md-3" id="work8">
+      <button class="btn success"><img src="images/assets/portfolio/work8.jpg" class="W8"></button>
+      <p id="overlay8" class="text">work8</p>
+    </div>
+  </div>
+
+<div class="container-fluid contact">
+<h2>CONTACT US</h2>
+
+<div class="container">
+
+  <img src="images/assets/backgrounds/c_image.jpg" alt="c-img">
+  <div class="centered">
+<form id="form34A" action="https://gmail.us3.list-manage.com/subscribe/post" method="POST">
+  <input type="hidden" name="u" value="e71bed4d6ae5a7c984dfe28b0">
+  <input type="hidden" name="id" value="dbf7e27685">
+  <div class="form-group form-inline">
+    <input type="text" class="form-control" placeholder = "Name...." name="MERGE1" id="MERGE1" size="25" value="">
+    <input type="email" class="form-control"  placeholder = "Email...." autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
+  </div>
+  <div class="form-group">
+    <textarea class="form-control" rows="8" id="comment" placeholder = "Your message here...."></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary col-md-1">Submit</button>
+</form>
+  </div>
 <br>
 <br>
         <footer>
@@ -179,8 +193,8 @@
           <img src="images/assets/social_icons/flickr.png" alt="flickr">
         </footer>
         <footer>
-          <p>DELANI STUDIO</p>
-          <p>2019</p>
+        Delani Studios
+        2019
         </footer>
         <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"e71bed4d6ae5a7c984dfe28b0","lid":"dbf7e27685","uniqueMethods":true}) })</script>
         <script src="js/jquery-3.4.1.js"></script>
