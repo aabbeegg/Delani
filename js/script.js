@@ -17,19 +17,25 @@ $(desp).hide()
           Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.');');
         });
         $("#development").click(function(){
-          $("#development").slideUp('1500');
-          $("#development-image").slideDown('1500');
+          $("#development").slideUp('Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing
+          Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.');');
+          $("#development-image").slideDown('Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing
+          Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.');');
         });
       });
       
       $(document).ready(function(){
         $("#design-image").click(function(design-image){
-          $("#design-image").slideDown('').hide('design');
-          $("#design").show('design');
+          $("#design-image").slideDown('').hide('Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+          Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.');
+          $("#design").show('Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+          Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.');
         });
         $("#design").click(function(){
-          $("#design").slideUp('1500');
-          $("#design-image").slideDown('1500');
+          $("#design").slideUp('Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+          Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.');
+          $("#design-image").slideDown('Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+          Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.');
         });
       });
       a:hover {
@@ -38,12 +44,20 @@ $(desp).hide()
       
       $(document).ready(function(){
         $("#product-image").click(function(){
-          $("#product-image").slideDown('1500').hide('p');
-          $("#product").show('p');
+          $("#product-image").slideDown('All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+        They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+        ').hide("#product-image");
+          $("#product").show('All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+          They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+        ');
         });
         $("#product").click(function(){
-          $("#product").slideUp('1500');
-          $("#product-image").slideDown('1500');
+          $("#product").slideUp('All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+          They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+        ');
+          $("#product-image").slideDown('All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+          They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+        ');
         });
       });
       
