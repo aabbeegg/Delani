@@ -5,48 +5,45 @@
   left: 80px;
 }
 
-.W1 {
-  overlay
-  background: grey;
+.container-design{
+  position: absolute;
+  width: 50%;
+  text-align: center;
 }
 
-.W2 {
-  background: grey;
+.design-image {
+ display: inline-block;
+  width: 100%;
+  height: auto;
 }
 
-.W3 {
-  background: grey
-}
-
-.W4 {
-  background: grey
-}
-
-
-.W5 {
-  background: grey;
-}
-
-.W6 {
-  background: grey;
-}
-  
-.W7 {
-  background: grey;
-}
- .W8 {
-   background: grey;
- }
-
- #overlay {
-  position: overlay; /* Sit on top of the page content */
-  width: 100%; /* Full width (cover the whole page) */
-  height: 100%; /* Full height (cover the whole page) */
+.overlay {
+  position: absolute;
   top: 0;
+  bottom: 0;
   left: 0;
   right: 0;
-  bottom: 0;
-  background-color: grey; /* Grey background with opacity */
-  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-  cursor: pointer; /* Add a pointer on hover */
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: powderblue;
 }
+
+.container-what-we-do .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+ 
